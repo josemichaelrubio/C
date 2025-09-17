@@ -9,9 +9,11 @@ int main(void){
     #define CONSTANT_VALYE 12 // new constant
     printf("Hello World!\n");
     int garbage_variable; // this value will have whatever value that was in the address in RAM
-    printf("%d", garbage_variable); // %d to use garbage variable in printing
+    printf("%d\n", garbage_variable); // %d to use garbage variable in printing
     int array_example[10]; // this creates an array with a max of 10 elements
-    
+    array_example[0] = 10;
+    printf("%d\n",array_example[0]);
+
     return 0;
 }
 
