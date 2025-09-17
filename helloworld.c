@@ -6,6 +6,7 @@
 
 // Print Hello World to the Screen
 int main(void){
+    #define CONSTANT_VALYE 12 // new constant
     printf("Hello World!\n");
     return 0;
 }
