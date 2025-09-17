@@ -10,6 +10,8 @@ int main(void){
     printf("Hello World!\n");
     int garbage_variable; // this value will have whatever value that was in the address in RAM
     printf("%d", garbage_variable); // %d to use garbage variable in printing
+    int array_example[10]; // this creates an array with a max of 10 elements
+    
     return 0;
 }
 
