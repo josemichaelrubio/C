@@ -9,7 +9,7 @@ int main(void){
     #define CONSTANT_VALYE 12 // new constant
     printf("Hello World!\n");
     int garbage_variable; // this value will have whatever value that was in the address in RAM
-    printf(garbage_variable);
+    printf("%d", garbage_variable); // %d to use garbage variable in printing
     return 0;
 }
 
