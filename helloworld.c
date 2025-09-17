@@ -13,7 +13,9 @@ int main(void){
     int array_example[10]; // this creates an array with a max of 10 elements
     array_example[0] = 10;
     printf("%d\n",array_example[0]);
-
+    char string_name_example[] = "BOB" ; // so a string is treated like an array, you can assign it any number of elements, you can also leave it blank and the last value is a \O
+    printf("%s\n",string_name_example); // notice %s
+    printf("%c\n",string_name_example[3]); // notice %c
     return 0;
 }
 
