@@ -6,6 +6,12 @@
 
 */
 
+// so it seems functions need to be declared before called
+int test_function (int c) {
+    c = 10;
+    return c;
+}
+
 // Print Hello World to the Screen
 int main(void){
     #define CONSTANT_VALYE 12 // new constant
@@ -34,11 +40,11 @@ int main(void){
         printf("you typed a false value: %d \n", some_number);
     }
     
-    
-
-
+    int a = 50;
+    printf(" the old a: %d\n", a);
+    int b = test_function(a);
+    printf(" the new a: %d\n", b);
     return 0;
 }
-
 // once you are done, type gcc -o hello helloworld.c 
 // then, to run the code, run out output
