@@ -1,6 +1,8 @@
 #include <stdio.h> // Told C what we use lib to use
 #define MAX_LEN 10 // here, we are doing a max length for user input, make sure to leave room for the /0
 #define TRUE_VALUE 3
+// Here, we make declaratations of functions we swant to call before another function
+
 // Single line comment
 /*
 
@@ -46,5 +48,7 @@ int main(void){
     printf(" the new a: %d\n", b);
     return 0;
 }
+
+int 
 // once you are done, type gcc -o hello helloworld.c 
 // then, to run the code, run out output
