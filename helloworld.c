@@ -12,6 +12,7 @@
 
 
 
+
 // so it seems functions need to be declared before called
 int test_function (int c) {
     c = 10;
